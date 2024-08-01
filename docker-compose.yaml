@@ -1,4 +1,3 @@
-version: '3'
 services:
   aprsc:
     build: .
@@ -8,7 +7,7 @@ services:
       - "./logs:/opt/aprsc/logs"
       - "./data:/opt/aprsc/data"
     ports:
-      - 8080:8080
+      - 8585:8585
       - 10152:10152
       - 14501:14501
       - 14580:14580
